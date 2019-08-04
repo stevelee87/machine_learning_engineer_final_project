@@ -1,12 +1,12 @@
 # Machine Learning Engineer - Udacity nanodegree program - Final Project
 
-## Intro
+## 1- Intro
 This final project was a result of a capstone proposal accepted by Udacity reviewers. The capstone proposal can be read either in the file `proposal.pdf` and in the topic 3 at this `README.md` file.
 
-## Setup
+## 2- Setup
 To reproduce the solution by me proposed, you need to run the Jupter Notebook called `finalproject.ipynb` in the main folder. Use Python3 kernel. All the libraries used here are contained in Anaconda framework. If you do not have Anaconda installed, please follow the intructions here: https://www.anaconda.com/distribution/
 
-## Capstone proposal
+## 3- Capstone proposal
 
 ### Domain background
 
@@ -68,5 +68,5 @@ The project design will be as follow:
 5.	Evaluate the model against the test subset.
 
 
-## Work
+## 4- Work
 The complete work can be read in the finalproject.pdf file in the main folder.
