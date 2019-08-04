@@ -69,4 +69,4 @@ The project design will be as follow:
 
 
 ## 4- Work
-The complete work can be read in the finalproject.pdf file in the main folder.
+The complete work can be read in the `finalproject.pdf` file in the main folder.
