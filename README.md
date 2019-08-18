@@ -20,7 +20,7 @@ The goal is to create a prediction model that predicts with a minimum of 70% of 
 
 ### Dataset and inputs
 
-In 1988 four institutes collected data from 1025 people and made a dataset of 76 attributes about heart disease. The institutes are listed below
+In 1988 four institutes collected data from 303 people and made a dataset of 76 attributes about heart disease. The institutes are listed below
 
 1.	Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D. 
 2.	University Hospital, Zurich, Switzerland: William Steinbrunn, M.D. 
@@ -29,23 +29,24 @@ In 1988 four institutes collected data from 1025 people and made a dataset of 76
 
 Historically, from the 76 attributes, only a subset of 14 are been used and considered relevant for hear disease prediction studies, thus this capstone project will use the 14 features subset as the dataset. The target attribute refers to either 0 (no heart disease presence) or 1 (heart disease presence). This dataset was cited in this article "Heart Disease Prediction Using Machine learning and Data Mining Technique" but was collected in Kaggle.
 
-All the features are number quantities as shown below 
-1.	Age
-2.	 Sex 
-3.	Chest pain type (4 values) 
-4.	Resting blood pressure 
-5.	Serum cholestoral in mg/dl 
-6.	Fasting blood sugar > 120 mg/dl
-7.	Resting electrocardiographic results (values 0,1,2)
-8.	Maximum heart rate achieved 
-9.	Exercise induced angina 
-10.	Oldpeak = ST depression induced by exercise relative to rest 
-11.	The slope of the peak exercise ST segment 
-12.	Number of major vessels (0-3) colored by flourosopy 
-13.	Thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
-14.	Target: 0 = no presence of heart disease; 1 = presence of heart disease
+All the features are shown below
 
-The target feature is well distributed (499 for “no presence of heart disease“ and 526 for “presence of heart disease“)
+1.	Age (age): numerical
+2.	 Sex (sex): categorical – 0 = male and 1 = female  
+3.	Chest pain type (cp): categorical – from 1 = low pain to 4 = very painful 
+4.	Resting blood pressure in mmHg (trestbps): numerical 
+5.	Serum cholestoral in mg/dl (chol): numerical
+6.	Fasting blood sugar > 120 mg/dl (fbs): categorical – 0 = False and 1 = True
+7.	Resting electrocardiographic results (restecg): categorical values 0, 1 and 2
+8.	Maximum heart rate achieved (thalach): numerical
+9.	Exercise induced angina (exang): categorical – 0 = no and 1 = yes
+10.	ST depression induced by exercise relative to rest (Oldpeak): numerical 
+11.	The slope of the peak exercise ST segment (slope): categorical values 0, 1 and 2
+12.	Number of major vessels colored by flourosopy (ca): categorical values 0, 1, 2, 3 and 4
+13.	Thal: categorical 1 = normal, 2 = fixed defect and 3 = reversible defect
+14.	Target: categorical 0 = no presence of heart disease and 1 = presence of heart disease
+
+The target feature is well distributed (138 for “no presence of heart disease“ and 165 for “presence of heart disease“)
 Solution statement
 
 The solution is to use different supervised machine learning techniques and compare them to see which one would be more accurate to solve the problem. After determining the fine-tuned supervised method, the trained model will be run against the test dataset for validation. 
